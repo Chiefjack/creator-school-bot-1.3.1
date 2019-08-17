@@ -809,9 +809,12 @@ async def staffhelp(ctx):
 													"**cs!decline [tag user]** - Declines the tagged user as a teacher for the teacher application channel this is used in\n"
 													"**cs!tutorresponse** - Reply to a tutor request. See pinned message in #tutor-request-log\n"
 													"**cs!reportresponse** - Reply to a user report. See pinned message in #user-reports\n"
-													"**cs!staffaccept** - Accepts the tagged user as a new Staff member (Helper)\n"
-													"**cs!staffdecline** - Declines the tagged user as a new Staff member (Helper)\n"
 													"**cs!warn** - Warns the tagged user. Usage: cs!warn1 @ChiefJack_YT#4450 Stop spamming. Change cs!warn1 to cs!warn2 or cs!warn3 depending on if they already have a previous warning.\n"
+													"---")
+	embed.add_field(name="**SENIOR STAFF COMMANDS**", value= "**cs!staffaccept** - Accepts the tagged user as a new Staff member (Helper)\n"
+													"**cs!staffdecline** - Declines the tagged user as a new Staff member (Helper)\n"
+													"**cs!staffpromote** - Promotes the tagged user. Usage: cs!staffpromote @ChiefJack_YT#4450 helper. Change helper to moderator, admin, headadmin, coowner or owner.\n"
+													"**cs!staffdemote** - Demotes the tagged user. Usage: cs!staffdemote @ChiefJack_YT#4450 helper. Change helper to moderator, admin, headadmin, coowner or none.\n"
 													"---")
 	embed.add_field(name="**EVENT COMMANDS**", value= "**cs!setteam [tag user] [dawn / dusk / none]** - Set the team of the tagged user in the Team Battle Event. Type dawn or dusk after the tagged user to set them to that team. Or type none to remove them from a team.\n"
 													"---")
